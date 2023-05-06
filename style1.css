@@ -1,0 +1,118 @@
+
+ .col-sm-10{
+    background-color: rgb(76, 69, 47);
+    padding: 17px 0px;
+    display: flex;
+    gap: 30px;
+ }
+ .col-sm-10 a{
+    color: #f8f4f4;
+ }
+
+.col-sm-7{
+    background-color: #fff !important;
+    border-bottom: 1px solid green;
+    padding: 20px 20px ;  
+}
+.col-sm-7 button{
+      background-color: #0084ff;
+     width: max-content;
+    padding: 0px 20px;
+    color: azure;
+    border-radius: 5px;
+}
+.post-detail p{
+    color: rgb(207, 100, 51);
+}
+.post-detail audio{
+      padding-top: 10px; 
+     height: 40px;
+}
+.style-icon{
+    display: flex;
+    gap: 5px;
+    border-bottom: 1px solid#d3cece;
+    padding: 20px 0px;
+    font-size: 13px;
+}
+.style-icon button{
+    display: flex;
+    gap: 10px;
+}
+.icon-save{
+    color:#0084ff !important ;
+    background-color: #fff !important  ;
+    
+}
+.col-sm-3{
+    background-color: #dcd5d5;
+    padding: 20px 0px;
+}
+ .advertising{
+    position: sticky  ;
+    top: 0 ;
+ }
+.refer{
+    text-align: center;
+}
+.refer-img{
+    display: flex;
+    gap: 40px;
+    background-color: #e7eaed;
+    margin: 30px 0px;
+
+}
+.post{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+.post b{
+      padding: 20px;  
+      border-bottom: 1px solid rgb(77, 255, 0);
+      border-top: 1px solid rgb(77, 255, 0);
+}
+
+.view{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid#d3cece;
+    border-top:1px solid#d3cece; 
+    padding: 15px;
+    margin: 40px;
+} 
+ .view button{
+    margin: 0px 6px;
+    font-size: 14px;
+}
+ .Categories{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+ .Categories h3{
+    border-left: 10px solid rgb(222, 129, 79);
+    padding-left: 20px;
+ }
+.Categories-img{
+    display: flex ;
+     background-color: rgb(221, 226, 226);
+    gap: 70px;
+    word-break: break-all;
+    
+    
+}
+ .Categories-img img{
+    width: 200px;
+    
+}
+ .Categories-img img:hover{
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1280px){
+.Categories-img{
+    flex-wrap: wrap;
+}
+}

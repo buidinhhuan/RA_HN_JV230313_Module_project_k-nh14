@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff!important;
+} 
+.logo{
+    padding: 20px;
+}
+   
+input{
+    padding: 0px 5px;
+    
+}   
+ .style-form{
+    text-align: center;
+     margin-top: 300px;
+    font-size: 18px;
+    border: 1px solid #dfc5c5;
+    border-radius: 10px;
+    padding: 40px;
+    background-color: rgb(79, 136, 189);
+     
+ }
+ 
+.style-form button{
+    border-radius: 5px;
+    background-color:  #0066ff;
+    padding: 5px;
+    color: aliceblue;
+    border: none;
+}
+/* .load{
+    border: 16px solid rgb(119, 100, 100);
+    border-radius: 50%;
+    border-top: 16px solid #fff;
+    width: 50px;
+    height: 50px;
+    animation: rotate 1s linear infinite;
+     align-items: center;
+}
+@keyframes rotate{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+} */
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+.music{
+    width: 300px;
+    height: 10px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.music .bar{
+    width: 12px;
+    border-radius: 10px;
+    background-color: white;
+    animation: movement 1.5s ease-in-out infinite;
+}
+@keyframes movement{
+ 0%, 100%{
+    height: 20px;
+ }
+ 50% {
+    height: 50px;
+ }
+}
+.music .bar:nth-child(1){
+    background: white;
+    animation-delay: .1s;
+}
+.music .bar:nth-child(2){
+    background: #f5982d;
+    animation-delay: .8s;
+}
+.music .bar:nth-child(3){
+    background: red;
+    animation-delay: .6s;
+}
+.music .bar:nth-child(4){
+    background: #f5982d;;
+    animation-delay: .4s;
+}
+.music .bar:nth-child(5){
+    background: red;
+    animation-delay: .2s;
+}
+.music .bar:nth-child(6){
+    background:  #f5982d;;
+    animation-delay: 2s;
+}
+.music .bar:nth-child(7){
+    background: red;
+    animation-delay: .4s;
+}
+.music .bar:nth-child(8){
+    background:  #f5982d;;
+    animation-delay: .6s;
+}
+.music .bar:nth-child(9){
+    background: red;
+    animation-delay: .8s;
+}
+.music .bar:nth-child(10){
+    background:  #f5982d;;
+    animation-delay: 1s;
+}
